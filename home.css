@@ -1,0 +1,96 @@
+.all{
+    height: 100vh;
+}
+
+
+.head{
+height: 25%;
+width: 100%;
+background-image:  url(fon.jpg);
+text-align: center;
+color: rgb(255, 166, 0);
+font-size: 130px;
+
+box-shadow: 0px 0px 10px 6px rgb(8, 95, 5);
+font-family: Comic Sans MS, Comic Sans, cursive;
+margin-bottom: 0.5%;
+}
+
+.head-down{
+    height: 15%;
+    width: 100%;
+    background-color: green; 
+    text-align: center;
+    font-size: 75px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 6px rgb(255, 255, 255);
+    background-image: url(fon2.jpg);
+    color: rgb(255, 123, 0);
+}
+
+
+.choose{
+display: flex;
+flex-direction: row;
+height: 58%;
+width: 100%;
+
+}
+
+img{
+    opacity: 0.2;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+	width: 100%;
+	height: 100%;
+    display: block; /* Убираем полосу под картинкий */
+}
+ img:hover{
+    opacity: 1; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.45); /* Увеличение картинки */
+ }
+.dima{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 100%;
+    width: 35%;
+    background-color: purple; 
+    background: white;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  
+    text-align: center;
+    font-size: 70px;
+    background-image: url(q2.jpg);
+    color: rgb(255, 80, 0);
+}
+
+
+.nast{
+    height: 100%;
+    width: 35%;
+    background-color: green; 
+    background: white;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 70px;
+    background-image: url(q2.jpg);
+    color: rgb(255, 80, 0);
+}
+
+.vanya{
+    height: 100%;
+    width: 35%;
+    background-color: yellow; 
+    background: white;   /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 70px;
+    background-image: url(q2.jpg);
+    color: rgb(255, 80, 0);
+}
+
+
+
+
+
+ /* <img src="https://memepedia.ru/wp-content/uploads/2021/10/duejn-skala-dzhonson-zhestko-mem.jpg" alt="">  */
